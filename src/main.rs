@@ -36,7 +36,7 @@ fn main() {
         }
         
         let mut frame = display.draw();
-        frame.clear_color(0.8, 0.7, 0.8, 1.0);
+        frame.clear_color(0.4, 0.7, 0.8, 1.0);
 
         // frame.draw(vertex_buffer: V, index_buffer: I, program: &Program, uniforms: &U, draw_parameters: &DrawParameters<'_>)
         frame.finish().unwrap();
